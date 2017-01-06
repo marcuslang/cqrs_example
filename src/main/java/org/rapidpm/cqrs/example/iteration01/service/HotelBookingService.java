@@ -7,7 +7,7 @@ import javax.inject.Inject;
 import java.time.LocalDate;
 import java.util.List;
 
-public class HotelBookingService{
+public class HotelBookingService {
 
   @Inject
   private HotelModel model;

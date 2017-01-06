@@ -15,7 +15,7 @@ public class Hotel {
   }
 
   public boolean isBookedOnDates(List<LocalDate> dates) {
-    for(LocalDate date : dates)
+    for (LocalDate date : dates)
       return bookings.contains(date);
     return false;
   }

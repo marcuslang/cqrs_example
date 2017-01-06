@@ -1,10 +1,12 @@
 package org.rapidpm.cqrs.example.iteration01.database;
 
-import javafx.collections.transformation.SortedList;
 import org.rapidpm.cqrs.example.iteration01.domain.Hotel;
 
 import java.time.LocalDate;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 

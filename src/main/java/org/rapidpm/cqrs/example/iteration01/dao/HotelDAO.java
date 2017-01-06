@@ -4,7 +4,6 @@ import org.rapidpm.cqrs.example.iteration01.database.HotelDatabase;
 import org.rapidpm.cqrs.example.iteration01.domain.Hotel;
 
 import javax.annotation.PostConstruct;
-import javax.inject.Inject;
 import java.time.LocalDate;
 import java.util.List;
 

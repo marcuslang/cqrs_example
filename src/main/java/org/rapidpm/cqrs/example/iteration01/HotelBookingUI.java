@@ -1,6 +1,7 @@
 package org.rapidpm.cqrs.example.iteration01;
 
 import org.rapidpm.cqrs.example.iteration01.service.HotelBookingService;
+
 import java.time.LocalDate;
 import java.util.List;
 
