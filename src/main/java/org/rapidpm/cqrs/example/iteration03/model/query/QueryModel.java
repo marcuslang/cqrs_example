@@ -1,7 +1,7 @@
-package org.rapidpm.cqrs.example.iteration01.model;
+package org.rapidpm.cqrs.example.iteration03.model.query;
 
-import org.rapidpm.cqrs.example.iteration01.dao.HotelDAO;
-import org.rapidpm.cqrs.example.iteration01.domain.Hotel;
+import org.rapidpm.cqrs.example.iteration03.dao.HotelDAO;
+import org.rapidpm.cqrs.example.iteration03.domain.Hotel;
 
 import javax.inject.Inject;
 import java.time.LocalDate;
@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class HotelModel {
+public class QueryModel {
 
   @Inject
   private HotelDAO dao;
@@ -23,7 +23,4 @@ public class HotelModel {
     return Collections.emptyList();
   }
 
-  public void bookHotel(String hotelName, LocalDate from, LocalDate to) {
-    dao.bookHotel(hotelName, from, to);
-  }
 }
