@@ -8,10 +8,6 @@ public class HotelBookingUI {
 
 
   public static void main(String[] args) {
-
-    // TODO get all available hotels
-    // TODO book a hotel
-
     HotelBookingService service = new HotelBookingService();
     LocalDate from = LocalDate.parse("2020-01-01");
     LocalDate to = LocalDate.parse("2020-01-03");
